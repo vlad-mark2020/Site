@@ -1,10 +1,62 @@
+<html>
+
 <head>
-    <meta charset="utf-8" />
-    <title>Мій перший сайт</title>
+    <meta charset="utf-8">
+    <title>X | Официальный сайт</title>
+    <meta property="og:title" content="X">
+    <meta property="og:description" content="Официальный сайт">
+    <meta name="description" content="X Официальный сайт. Artur Destroyer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="X">
+    <meta name="Copyright" content="X">
+    <link rel="shortcut icon" href="assets/favico/ico.png" type="image/png">
+    <link rel="stylesheet" href="assets/fonts/gsans/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/text.js"></script>
+    <script src="assets/js/typed.min.js"></script>
+    <meta name="theme-color" content="#000000">
 </head>
 
-<body>
-    <h1>Привіт!<h1>
+<body class="center">
+    <div class="loaderArea">
+        <div class="loader"></div>
+    </div>
+
+    <script type="text/javascript">
+                document.body.style.backgroundImage = "url('assets/images/background.gif')";
+    </script>
+
+    <header class="center info">
+        <div class="center informator">
+            <div class="avatar-container"><center><img src="assets/images/avatar.gif" oncontextmenu="return false;" class="avatar"></center></div>
+            <h1><center><span>X</span></center></h1>
+            <hr width="295">
+            <h2><center></center><span class="typed"></span><span class="typed-cursor">❚</span></center></h2>
+            <hr width="295">
+        </div>
+        <div class="buttons">
+        </div>
+        <div class="buttons">
+            <a href="javascript://" class="link" onclick="location.href='https://github.com/vlad-mark2020'">GitHub</a>
+        </div>
+        <div class="buttons">
+            <button class="link" id="downloadBtn">Скачать файл</button>
+
+    <script src="script.js"></script>
+        </div>
+
+        <script>
+          $(window).on('load', function () {
+            $preloader = $('.loaderArea'),
+              $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+          });
+        </script>
+    </header>
 </body>
 
 </html>
